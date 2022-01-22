@@ -114,6 +114,21 @@
       <path value="$PROJECT_DIR$/api-app/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/api-app/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/api-app/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/api-app/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/api-app/vendor/knuckleswtf/scribe" />
+      <path value="$PROJECT_DIR$/api-app/vendor/mpociot/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api-app/vendor/shalvah/upgrader" />
+      <path value="$PROJECT_DIR$/api-app/vendor/spatie/data-transfer-object" />
+      <path value="$PROJECT_DIR$/api-app/vendor/shalvah/clara" />
+      <path value="$PROJECT_DIR$/api-app/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/api-app/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/api-app/vendor/darkaonline/l5-swagger" />
+      <path value="$PROJECT_DIR$/api-app/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/api-app/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/api-app/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/api-app/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/api-app/vendor/php-webdriver/webdriver" />
+      <path value="$PROJECT_DIR$/api-app/vendor/laravel/dusk" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

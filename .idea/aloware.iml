@@ -114,6 +114,21 @@
       <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/graham-campbell/result-type" />
       <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/knuckleswtf/scribe" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/mpociot/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/shalvah/upgrader" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/spatie/data-transfer-object" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/shalvah/clara" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/symfony/var-exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/darkaonline/l5-swagger" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/zircote/swagger-php" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/swagger-api/swagger-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/doctrine/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/php-webdriver/webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/api-app/vendor/laravel/dusk" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

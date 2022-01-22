@@ -32,6 +32,7 @@ class Post extends Model
         return $this->hasMany(Comment::class, 'commentable_id', 'id')
             ->where('commentable_type', 'post')
             ->where('parent_id', 0)
+            ->orderBy('id', 'desc')
             ->with('replies')
             ->with('user', function($query) {
                 $query->select('id', 'name');

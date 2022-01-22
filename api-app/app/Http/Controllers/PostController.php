@@ -11,6 +11,15 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function index()
+    {
+        return response()->json([
+            'error' => false,
+            'message' => 'Articles fetched successfully!',
+            'blogs' => Post::all()
+        ]);
+    }
+
     /**
      * @param int $id
      * @return JsonResponse|null
@@ -31,7 +40,7 @@ class PostController extends Controller
         return response()->json([
             'error' => false,
             'message' => 'The post has been fetched successfully!',
-            'post' => $post
+            'blog' => $post
         ], 201);
     }
 }

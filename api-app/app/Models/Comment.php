@@ -33,6 +33,7 @@ class Comment extends Model
             ->with('user', function($query) {
                 $query->select('id', 'name');
             })
+            ->orderBy('id', 'desc')
             ->with('replies')
             ->where('parent_id', '!=', '0');
 

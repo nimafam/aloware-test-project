@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+Route::get('/articles', [PostController::class, 'index'])->name('post.list');
 Route::get('/article/{post:id}', [PostController::class, 'show'])->name('post.show');
 Route::get('/article/comments/{post:id}', [CommentController::class, 'getComments'])->name('comments.show');
-Route::post('/comment/store', [CommentController::class, 'store'])->name('comment.add');
-Route::post('/reply/store', [CommentController::class, 'replyStore'])->name('reply.add');
+Route::post('/comment/store/{post:id}', [CommentController::class, 'store'])->name('comment.add');
+Route::post('/reply/store/{post:id}', [CommentController::class, 'replyStore'])->name('reply.add');

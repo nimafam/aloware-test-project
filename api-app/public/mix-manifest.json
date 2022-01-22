@@ -1,4 +1,14 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/resources/views/app.blade.php": "/resources/views/app.blade.php",
+    "/andy-li-r2AlgxMb-yc-unsplash.jpg": "/andy-li-r2AlgxMb-yc-unsplash.jpg",
+    "/bailey-burton--ueGF6jpebA-unsplash.jpg": "/bailey-burton--ueGF6jpebA-unsplash.jpg",
+    "/einar-ingi-sigmundsson-Rf7mZ_OIqPU-unsplash.jpg": "/einar-ingi-sigmundsson-Rf7mZ_OIqPU-unsplash.jpg",
+    "/favicon.ico": "/favicon.ico",
+    "/index.html": "/index.html",
+    "/part-1.png": "/part-1.png",
+    "/steve-smith-k9jNxd5ru90-unsplash.jpg": "/steve-smith-k9jNxd5ru90-unsplash.jpg",
+    "/sylvain-cleymans-bojqZpTPHWg-unsplash.jpg": "/sylvain-cleymans-bojqZpTPHWg-unsplash.jpg",
+    "/vadim-kaipov-Zvj8cbiu1is-unsplash.jpg": "/vadim-kaipov-Zvj8cbiu1is-unsplash.jpg"
 }
